@@ -2,21 +2,21 @@ class Cflmd < Formula
   desc "CLI for working with Atlassian Confluence page content as Markdown"
   homepage "https://github.com/djnz00/cflmd"
   license "ISC"
-  version "2.1.0"
+  version "2.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/djnz00/cflmd/releases/download/v2.1.0/cflmd-macos-arm64.tar.gz"
-      sha256 "934dcabc27736c4404b4746056d3e09d318f6b237f4fee5743e50358c50b5869"
+      url "https://github.com/djnz00/cflmd/releases/download/v2.2.0/cflmd-macos-arm64.tar.gz"
+      sha256 "0ba0c03f82c8e3f7cc257157f41c3147e039f0d0f5a6df34b8209e23e4d58f0e"
     else
-      url "https://github.com/djnz00/cflmd/releases/download/v2.1.0/cflmd-macos-x64.tar.gz"
-      sha256 "32f214a641884519a109af2385cd2f19dfe5c30d42528a2a2b399cb063b1c87a"
+      url "https://github.com/djnz00/cflmd/releases/download/v2.2.0/cflmd-macos-x64.tar.gz"
+      sha256 "2846c466fc857bec97522985298ecde1538cec60922994064ca026c07f5a09cb"
     end
   end
 
   on_linux do
-    url "https://github.com/djnz00/cflmd/releases/download/v2.1.0/cflmd-linux-x64.tar.gz"
-    sha256 "3f6008f30275d71671b726b611f66d7a2156631e62486e166fb26b485e26382e"
+    url "https://github.com/djnz00/cflmd/releases/download/v2.2.0/cflmd-linux-x64.tar.gz"
+    sha256 "330d318e9d4f79ae5aef8e88934b9ebc2a87ba9e915a29b3b6955d5d933b1ceb"
   end
 
   def install
